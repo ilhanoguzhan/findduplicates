@@ -4,31 +4,31 @@ This app identifiess possible duplicate records in a data-set.
 
 ## Installation
 
-### Local
-
-Run these in your application's folder:
-
 ```bash
 $ bundle install
-```
-### On docker
-
-Run these in your application's folder:
-```bash
-$ docker-compose up
 ```
 
 ## Usage
 
-Terminal output
+
+### CLI
 ```bash
 $ ruby run_on_terminal.rb advanced
 in prompt: type "normal" or "advanced" for example data or your own
 ```
+### Local
 
 Run rack server
 ```bash
 $ rackup config.ru
+```
+
+### On docker
+
+Build and start docker container
+
+```bash
+$ docker-compose up
 ```
 
 ### Web UI (json)
@@ -49,4 +49,4 @@ example data: advanced.csv
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
-5. [Create a new Pull Request](https://github.com/davidcelis/rack-console/compare)
+5. [Create a new Pull Request](https://github.com/ilhanoguzhan/findduplicates/compare)
